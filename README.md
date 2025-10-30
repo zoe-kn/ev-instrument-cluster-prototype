@@ -21,7 +21,7 @@ Practice thinking like a software & HMI engineer:
 - Iterative design to mimic automotive HMI workflows
 
 ### 📸 Screenshot (v1)
-assets/First Figma Idea.png
+assets/First_Figma_Idea.png
 
 ### ✅ Next steps
 - Add State-Flow logic (Python CLI model)
