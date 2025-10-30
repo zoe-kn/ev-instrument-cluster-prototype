@@ -1,17 +1,32 @@
-# EV Cockpit HMI Prototype (Early Exploration)
+# EV Instrument Cluster Prototype
 
-This is a minimal digital instrument cluster concept for an electric vehicle.  
-The focus is not on visuals, but on **automotive HMI thinking**:
+A minimal **electric vehicle instrument cluster** prototype.  
+Focus is not visual polish but **HMI principles, cognitive load and information hierarchy** for driver-critical interfaces.
 
-- glanceability under driving conditions  
-- strict information hierarchy  
-- safety-first layout (no touch UI, no distractions)
+### 🎯 Goal
+Practice thinking like a software & HMI engineer:
+- Glanceability under real driving conditions
+- Strict safety-first hierarchy (speed > assist > navigation)
+- No touch UI elements (steering-wheel interaction implied)
+- Minimal distraction, high legibility
 
-Current elements:
-- Speed as primary focal point
-- ACC active indicator (driver assistance)
-- Battery and range data (EV-relevant)
-- Minimal navigation cue for next maneuver
+### 🧠 What’s inside
+- Speed as primary focus
+- ACC status indicator (driver assistance context)
+- Battery + Range block (EV relevant data)
+- Navigation cue for next maneuver
 
-This is an iterative learning project — not final UI work.  
-Goal: practice structured interface thinking for automotive systems.
+### 🛠️ Stack / Tools
+- Figma (Free)
+- Iterative design to mimic automotive HMI workflows
+
+### 📸 Screenshot (v1)
+assets/First Figma Idea.png
+
+### ✅ Next steps
+- Add State-Flow logic (Python CLI model)
+- Add night mode variant
+- Lane-assist indicator bars
+
+>This repo shows early HMI/System thinking — not pixel art.
+
